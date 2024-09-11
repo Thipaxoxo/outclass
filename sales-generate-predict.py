@@ -11,9 +11,9 @@ st.write("This app predicts the **Sales Based on Advertising type!**")
 st.sidebar.header('User Input Parameters')
 
 def user_input_features():
-    TV= st.sidebar.slider('TV', 0.0, 296.4	, 149.75	)
-    Radio = st.sidebar.slider('Radio', 0.0, 49.6, 22.9)
-    NewsPaper= st.sidebar.slider('NewsPaper', 0.0, 114.0,25.75)
+    TV= st.sidebar.slider('TV',0.0,296.4,149.75)
+    Radio = st.sidebar.slider('Radio',0.0,49.6,22.9)
+    NewsPaper= st.sidebar.slider('NewsPaper',0.0,114.0,25.75)
     data = {'TV': TV,
             'Radio': Radio,
             'NewsPaper': NewsPaper}
