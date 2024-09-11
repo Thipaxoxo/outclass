@@ -1,3 +1,4 @@
+%%writefile sales-generate-predict.py
 import pickle #load model
 import streamlit as st
 import pandas as pd
@@ -29,4 +30,3 @@ new_pred = loaded_model.predict(df) # testing (examination)
 
 st.subheader('Prediction')
 st.write(new_pred)
-
